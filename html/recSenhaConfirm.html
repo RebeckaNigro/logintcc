@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="recSc.css">
-    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="../css/recSc.css">
+    <link rel="icon" href="../img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,34 +16,26 @@
     <title>Recuperar Senha</title>
 </head>
 <body>
-    <h1>Philia <img src="logo.png" alt="logo"></h1>
+    <h1>Philia <img id="imgLogo" src="../img/logo.png" alt="logo"></h1>
     <div class="container" id="container">
-        <div class="form-container sign-in-container">
+        <div class="form-container rec-senhaConfirm-container">
             <form action="#">
-                <h1 style="color: #A68DE9;">Recuperar</h1>
+                <h2>Recuperar</h2>
                 <span>Insira o código enviado</span>
-                <div class="numero">
-                <input type="number" min="0" max="9"/>
-                <input type="number" min="0" max="9"/>
-                <input type="number" min="0" max="9"/>
-                <input type="number" min="0" max="9"/>
-                <input type="number" min="0" max="9"/>
-                <input type="number" min="0" max="9"/>
-
-                </div>
-                <button  class="rounded" style="background-color: #A68DE9; margin-top: 50px;">Pronto!!!!</button>
+                <input type="text"/>
+                <button  class="rounded">Pronto!!!!</button>
             </form>
         </div>
     <div class="overlay-container">
         <div class="overlay">
                 <div class="overlay-panel overlay-right">
                 <h1>Recupere sua senha aqui:</h1>
-                <img src="seta esquerda.png" alt="seta">
+                <img src="../img/seta esquerda.png" alt="seta">
             </div>
         </div>
     </div>
 
 </div>
-            <script src="script.js"></script>
+            <script src="../js/script.js"></script>
     </body>
     </html>

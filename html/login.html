@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
 <body>
-    <h1>Philia <img style="width: 50px; height: 50px;" src="logo.png" alt="logo"></h1>
+    <h1>Philia <img src="../img/logo.png" alt="logo"></h1>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">
-                <h1>Criar Conta</h1>
+                <h2>Criar Conta</h2>
                 <div class="social-container">
                     <a href="#" class="social"><i class="bi bi-facebook"></i></a>
                     <a href="#" class="social"><i class="bi bi-google"></i></a>
@@ -29,38 +30,38 @@
                 <input type="text" placeholder="Nome" />
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Senha" />
-                <button  class="rounded" style="background-color: #A68DE9; margin-top: 15px;">Cadastrar</button>
+                <button  class="rounded" id="btnCriar">Cadastrar</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
             <form action="#">
-                <h1 style="color: #A68DE9;" >Entrar</h1>
+                <h2>Entrar</h2>
                 <div class="social-container">
                     <a href="#" class="social"><i class="bi bi-facebook"></i></a>
                     <a href="#" class="social"><i class="bi bi-google"></i></a>
                 </div>
                 <span>Entrar com Email:</span>
                 <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Senha" />
+                <input type="password" placeholder="Senha"></input>
                 <a href="recSenha.html">Esqueci minha senha</a>
-                <button class="rounded" style="background-color: #A68DE9;" >Entrar</button>
+                <button class="rounded" id="btnEntrar">Entrar</button>
             </form>
         </div>
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <h1>Bem Vindo!!!</h1>
+                    <h3>Bem Vindo!!!</h3>
                     <p>Caso já possua uma conta, faça o login com suas informações </p>
-                    <button style="background-color: #872BCF;" class="ghost rounded" id="signIn">Entrar</button>
+                    <button class="ghost rounded" id="signIn">Entrar</button>
                 </div>
                 <div class="overlay-panel overlay-right">
-                    <h1>Bem vindo de novo!</h1>
+                    <h3>Bem vindo de novo!</h3>
                     <p>Caso não possua uma conta, faça o cadastro com suas informações</p>
-                    <button style="background-color: #872BCF;" class="ghost rounded" id="signUp">Cadastrar</button>
+                    <button class="ghost rounded" id="signUp">Cadastrar</button>
                 </div>
             </div>
         </div>
         </div>
-        <script src="script.js"></script>
+        <script src="../js/script.js"></script>
 </body>
 </html>

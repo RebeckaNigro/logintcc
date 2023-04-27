@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="rec.css">
-    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="../css/rec.css">
+    <link rel="icon" href="../img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,27 +16,27 @@
     <title>Recuperar Senha</title>
 </head>
 <body>
-    <h1>Philia <img style="width: 50px; height: 50px;" src="logo.png" alt="logo"></h1>
+    <h1>Philia <img id="imgLogo" src="../img/logo.png" alt="logo"></h1>
     <div class="container" id="container">
-        <div class="form-container sign-in-container">
+        <div class="form-container rec-senha-container">
             <form action="#">
-                <h1 style="color: #A68DE9;">Recuperar</h1>
+                <h2>Recuperar</h2>
                 <span>Insira seu Email:</span>
                 <input type="email" placeholder="Email" />
                 <span>Um e-mail será enviado para o e-mail digitado contendo as informações para a recuperação de senha.</span>
-                <button class="rounded" style="background-color: #A68DE9;"><a href="recSenhaConfirm.html" style="color: white; text-decoration: none;">Recuperar</a></button>
+                <button class="rounded" id="btnRec" ><a id="rec" href="recSenhaConfirm.html">Recuperar</a></button>
             </form>
         </div>
     <div class="overlay-container">
         <div class="overlay">
                 <div class="overlay-panel overlay-right">
-                <h1>Recupere sua senha aqui:</h1>
-                <img src="seta esquerda.png" alt="seta">
+                <h3>Recupere sua senha aqui:</h3>
+                <img src="../img/seta esquerda.png" alt="seta">
             </div>
         </div>
     </div>
 
 </div>
-            <script src="script.js"></script>
+            <script src="../js/script.js"></script>
     </body>
     </html>
