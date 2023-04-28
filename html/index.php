@@ -12,18 +12,6 @@
     <title>Index</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="../img/logo.png" alt="Logo" class="d-inline-block align-text-center">
-            Philia
-            <button style="background-color: rgb(8, 66, 117);" class="rounded"> Entrar</button>
-          </a>
-        </button>
-        <button type="button" class="btn btn-primary me-3">
-          Sign up for free
-        </button>
-        </div>
-      </nav>
+    <?php include('./navbar.html') ?>
 </body>
 </html>
